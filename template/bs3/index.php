@@ -66,11 +66,14 @@
         </p>
 	<?php echo $view_news;?>
 
-	
+<center>
 	<?php if(file_exists("setlang.php")){?>
 	<a href=setlang.php?lang=cn>中文</a>&nbsp;
 	<a href=setlang.php?lang=en>English</a>&nbsp;
-	<?php }?>	
+	<br>
+	页面无法正常显示？请访问旧版:<a href='acmold'>请点击这里</a><br>
+	<?php }?>
+</center>	
 	
       </div>
 
