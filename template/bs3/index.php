@@ -35,12 +35,20 @@
 <div class="am-slider am-slider-default am-slider-carousel"
      data-am-flexslider="{itemWidth: 200, itemMargin: 5}">
   <ul class="am-slides">
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/1.jpg" ?> /></li>
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/2.jpg" ?> /></li>
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/3.jpg" ?> /></li>
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/4.jpg" ?> /></li>
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/5.jpg" ?> /></li>
-	<li><img src=<?php echo "template/$OJ_TEMPLATE/image/6.jpg" ?> /></li>
+	<li><img src="image/1.jpg"</li>
+	<li><img src="image/2.jpg"</li>
+	<li><img src="image/3.jpg"</li>
+	<li><img src="image/4.jpg"</li>
+	<li><img src="image/5.jpg"</li>
+	<li><img src="image/6.jpg"</li>
+	<li><img src="image/7.jpg"</li>
+	<li><img src="image/9.jpg"</li>
+	<li><img src="image/10.jpg"</li>
+	<li><img src="image/11.jpg"</li>
+	<li><img src="image/12.jpg"</li>
+	<li><img src="image/13.jpg"</li>
+	<li><img src="image/14.jpg"</li>
+	<li><img src="image/15.jpg"</li>
 
   </ul>
   <div class='center'>
@@ -75,37 +83,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <?php include("template/$OJ_TEMPLATE/js.php");?>	    
  <script language="javascript" type="text/javascript" src="include/jquery.flot.js"></script>
-<script type="text/javascript">
-$(function () {
-var d1 = [];
-var d2 = [];
-<?php
-foreach($chart_data_all as $k=>$d){
-?>
-d1.push([<?php echo $k?>, <?php echo $d?>]);
-<?php }?>
-<?php
-foreach($chart_data_ac as $k=>$d){
-?>
-d2.push([<?php echo $k?>, <?php echo $d?>]);
-<?php }?>
-//var d2 = [[0, 3], [4, 8], [8, 5], [9, 13]];
-// a null signifies separate line segments
-var d3 = [[0, 12], [7, 12], null, [7, 2.5], [12, 2.5]];
-$.plot($("#submission"), [
-{label:"<?php echo $MSG_SUBMIT?>",data:d1,lines: { show: true }},
-{label:"<?php echo $MSG_AC?>",data:d2,bars:{show:true}} ],{
-grid: {
-backgroundColor: { colors: ["#fff", "#eee"] }
-},
-xaxis: {
-mode: "time",
-max:(new Date()).getTime(),
-min:(new Date()).getTime()-100*24*3600*1000
-}
-});
-});
-//alert((new Date()).getTime());
-</script>
+
   </body>
 </html>

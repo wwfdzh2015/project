@@ -15,6 +15,8 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo $path_fix."template/$OJ_TEMPLATE/"?>table-line.css">
 
+<link rel="stylesheet" type="text/css" href="assets/css/amazeui.min.css"/>
+
 
 
 

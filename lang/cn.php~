@@ -37,7 +37,7 @@
    $MSG_OK="确定";
   $MSG_Explain="输入判定原因与提示";
   $MSG_Help='帮助';
-  $MSG_OJ='龙岩学院oj平台简介';
+  $MSG_About='关于本系统';
   $MSG_LyunCF='龙岩学院计算机学会简介';
   $MSG_ACM='ACM程序设计大赛介绍';
   

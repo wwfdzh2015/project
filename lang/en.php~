@@ -49,7 +49,7 @@ $MSG_TEST_RUN="Test Running Done";
    $MSG_OK="OK";
    $MSG_Explain="Type reason or explaination"; 
      $MSG_Help='Help';
-  $MSG_OJ='LyunOJ introduction';
+  $MSG_About='About the system';
   $MSG_LyunCF='LCA introduction';
   $MSG_ACM='ACM introduction';
   
