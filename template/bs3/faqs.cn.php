@@ -165,5 +165,7 @@ public class Main{
 </div><!--end foot-->
 </div><!--end main-->
 </div><!--end container-->
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 </body>
 </html>

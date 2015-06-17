@@ -91,7 +91,8 @@ else echo "<a href='problemset.php?page=".$i."'>".$i."</a>";
 
     </div> <!-- /container -->
 
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

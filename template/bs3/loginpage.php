@@ -57,12 +57,13 @@
       </div>
     </form>
     <hr>
-    <p>This ACM/ICPC OnlineJudge is a GPL product from hustoj</p>
 
   </div>
 </div>
 </div>
 </div>
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 <?php include("template/$OJ_TEMPLATE/js.php");?>
 </body>
 </html>

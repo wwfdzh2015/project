@@ -93,7 +93,8 @@ echo "</tbody></table>";
       </div>
 
     </div> <!-- /container -->
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

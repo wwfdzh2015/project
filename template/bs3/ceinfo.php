@@ -167,7 +167,8 @@ explain();
       </div>
 
     </div> <!-- /container -->
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

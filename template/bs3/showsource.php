@@ -74,7 +74,8 @@ echo "I am sorry, You could not view this code!";
       </div>
 
     </div> <!-- /container -->
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -135,6 +135,9 @@ ACM/ICPC 以团队的形式代表各学校参赛，每队由 3 名队员组成�
 
 
     </div> <!-- /container -->
+    
+    <div id=foot>
+	<?php require_once("oj-footer.php");?>
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
