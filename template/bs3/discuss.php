@@ -34,7 +34,8 @@ require_once("../lang/$OJ_LANG.php");
       </div>
 
     </div> <!-- /container -->
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

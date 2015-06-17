@@ -102,7 +102,8 @@ echo"<option value=$i ".( $lastlang==$i?"selected":"").">
      </div>
 
     </div> <!-- /container -->
-
+<div id=foot>
+	<?php require_once("oj-footer.php");?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -115,7 +115,7 @@
         <p>
 <center>
           <div class="am-align-left">
-            <img src=<?php echo "template/$OJ_TEMPLATE/image/LCA.jpg" ?> alt="" width="240">
+            <img src=<?php echo "template/$OJ_TEMPLATE/image/LCA.png" ?> alt="" width="240">
           </div>
           <p><small>
 		  龙岩学院计算机学会是由信息工程学院计算机科学与技术专业和软件工程专业师生牵头组成的面向全校
@@ -130,6 +130,9 @@
 
 
     </div> <!-- /container -->
+    
+    <div id=foot>
+	<?php require_once("oj-footer.php");?>
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
